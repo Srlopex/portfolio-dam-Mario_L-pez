@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este repositorio contiene mi portfolio personal desarrollado en HTML durante el ciclo formativo de **Desarrollo de Aplicaciones Multiplataforma (DAM)**.
+Este repositorio contiene mi portfolio personal desarrollado en HTML durante la formación en empresa (COJALI) en ciclo formativo de **Desarrollo de Aplicaciones Multiplataforma (DAM)**.
 
 El objetivo del proyecto es aplicar los conceptos aprendidos en clase como:
 
@@ -22,7 +22,7 @@ El objetivo del proyecto es aplicar los conceptos aprendidos en clase como:
 
 ## Estructura del proyecto
 
-* `portafolio.html` → Página principal del portfolio
+* `portafolio.html` --> Página principal del portfolio
 
 ---
 
