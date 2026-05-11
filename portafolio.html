@@ -69,6 +69,12 @@
             padding: 8px;
         }
 
+        #temaBtn {
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
         @media (max-width: 768px) {
 
             nav ul {
@@ -80,6 +86,16 @@
             }
 
         }
+
+        .dark-mode {
+            background-color: #222;
+            color: white;
+        }
+
+        .dark-mode aside,
+        .dark-mode #proyectos article {
+            background-color: #444;
+        }
     </style>
 
 </head>
@@ -89,6 +105,8 @@
     <header>
         <h1>Mario López Duro</h1>
         <p>Estudiante de Desarrollo de Aplicaciones Multiplataforma (DAM)</p>
+
+        <button id="temaBtn">Activar modo oscuro</button>
 
         <nav>
             <ul>
