@@ -38,6 +38,8 @@ const listaEstudios = document.getElementById("lista-estudios");
 
 function mostrarEstudios() {
 
+    listaEstudios.innerHTML = "";
+
     estudios.forEach(function (estudio) {
 
         listaEstudios.innerHTML += `
@@ -53,5 +55,13 @@ function mostrarEstudios() {
     });
 
 }
+
+mostrarEstudios();
+
+estudios.push({
+    titulo: "Curso de JavaScript",
+    centro: "Udemy",
+    año: 2026
+});
 
 mostrarEstudios();
