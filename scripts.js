@@ -18,3 +18,18 @@ botonTema.addEventListener("click", function () {
     }
 
 });
+
+
+const estudios = [
+    {
+        titulo: "Desarrollo de Aplicaciones Multiplataforma",
+        centro: "IES Gregorio Prieto",
+        año: 2025
+    },
+
+    {
+        titulo: "Sistemas Microinformáticos y Redes",
+        centro: "IES Gregorio Prieto",
+        año: 2024
+    }
+];
