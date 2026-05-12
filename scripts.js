@@ -33,3 +33,25 @@ const estudios = [
         año: 2024
     }
 ];
+
+const listaEstudios = document.getElementById("lista-estudios");
+
+function mostrarEstudios() {
+
+    estudios.forEach(function (estudio) {
+
+        listaEstudios.innerHTML += `
+
+            <article>
+                <h3>${estudio.titulo}</h3>
+                <p>${estudio.centro}</p>
+                <p>${estudio.año}</p>
+            </article>
+
+        `;
+
+    });
+
+}
+
+mostrarEstudios();
