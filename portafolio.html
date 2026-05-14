@@ -164,6 +164,16 @@
         #lista-estudios article:hover {
             transform: translateY(-5px);
         }
+
+        #perfilGithub article,
+        #reposGithub article {
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+
+        #reposGithub article:hover {
+            transform: translateY(-5px);
+        }
     </style>
 
 </head>
@@ -249,6 +259,22 @@
                 </article>
 
             </div>
+        </section>
+
+        <section id="github">
+
+            <h2>GitHub API</h2>
+
+            <input type="text" id="githubUser" placeholder="Usuario GitHub">
+
+            <button id="buscarGithub">
+                Buscar perfil
+            </button>
+
+            <div id="perfilGithub"></div>
+
+            <div id="reposGithub"></div>
+
         </section>
 
         <section id="contacto">

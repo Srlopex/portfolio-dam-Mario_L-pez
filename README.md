@@ -17,6 +17,7 @@ El objetivo del proyecto es aplicar los conceptos aprendidos en clase como:
 
 * HTML5
 * CSS3
+* JavaScript
 
 ---
 
